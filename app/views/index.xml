@@ -1,0 +1,28 @@
+<Alloy>
+	<Window class="container">
+		
+	
+		<!-- <View id="square"></View> -->
+		<Slider id="slider" min="0" max="100" width="25%" value="0" onChange="slideOutline"/>
+		<Label id="intro" >The figure-ground relationship is one of several principles referred to as Gestalt principles of perception. It asserts that the human perceptual system separates stimuli into either figure elements or ground elements. Figure elements are the objects of focus, and ground elements compose an undifferentiated background.</Label>
+		<Label id="fgr" onClick="doClick">Figure Ground Relationship</Label>
+		<Label id="dogWords" >Can you see the dalmation as the "figure" & the white as the "background"?</Label>
+		<Label id="dogWordsBottom">The Dalmatian should pop out as the figureground relationship stabilizes.</Label>
+		
+		<Label id="stableText">The composition becomes clear when the realtionship between figure and ground is stable.</Label>
+		<Label id="unstableText">In unstable figure-ground relationships, the relationship is ambiguous and can be interpreted in different ways; the interpretation of elements alternates between figure and ground.</Label>
+		<Label id="vaseText">The Rubin Vase: Black Vase or White Faces? </Label>
+		
+		<ImageView id="upBtnVase" onClick="vaseClick"  image="button_up.png"></ImageView>
+		
+		<ImageView id="dog" image="dog.jpg"></ImageView>
+		<ImageView id="dogOutline" image="dogOutline.png"></ImageView>
+		<ImageView id="upBtn" onClick="doClick" image="button_up.png"></ImageView>
+		<ImageView id="upBtn2" onClick="newClick" image="button_up.png"></ImageView>
+		<ImageView id="downBtn" onClick="downClick" image="button_down.png"></ImageView>
+		<ImageView id="vase" onClick="imageClickHandler" image="vase.jpg"></ImageView>
+		
+			<ImageView id="faceL"  image="face_left.jpg"></ImageView>
+		<ImageView id="faceR" image="face_right.jpg"></ImageView>
+	</Window>
+</Alloy>

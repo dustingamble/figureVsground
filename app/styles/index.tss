@@ -1,0 +1,95 @@
+".container": {
+	backgroundColor:"white"
+},
+"#fgr": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#333",
+	font: {fontSize: 45}
+} 
+"#upBtn": {
+ 	top:550, 
+}
+"#upBtn2": {
+ 	bottom:25, 
+ 	opacity:0,
+}
+"#downBtn": {
+ 	top:310, opacity:0,
+}
+"#intro": {
+	bottom:-1000, width:500,height:300,
+}
+"#dog": {
+	top:400,
+	opacity:0,
+}
+"#dogWords": {
+ 	top:315, 
+ 	width: 550,
+	height: Ti.UI.SIZE,
+	color: "#333",
+	opacity:0,
+	font: {fontSize: 25}
+}
+"#dogOutline": {
+ 	top:400,
+ 	opacity:0,
+}
+"#slider": {
+ 	opacity:0,
+ 	top: 830,
+}
+"#dogWordsBottom": {
+	opacity:0,
+	top:870,
+}
+"#stableText": {
+	top:-1000,
+	width: 500,	height: Ti.UI.SIZE,
+	font: {fontSize: 33},
+	color: "#333",
+}
+"#unstableText": {
+	bottom:-500, 
+	height: Ti.UI.SIZE,
+	width:500,
+	font: {fontSize: 22},
+	color: "#666",
+}
+"#vaseText": {
+	top:325,
+	font: {fontSize: 24},
+	width:500,
+	color: "#333",
+	opacity:0,
+}
+"#faceR": {
+	top:370,
+	right:77,
+	width:Ti.UI.SIZE,
+	height:450,
+	opacity:0,
+}
+"#faceL": {
+	top:370,
+	left:76,
+	width:Ti.UI.SIZE,
+	height:450,
+	opacity:0,
+}
+// "#square":{
+	// bottom:25,
+	// opacity:0,
+	// width: 1000,
+    // height: 450,
+    // backgroundColor: '#000',
+    // top:370,	
+// }
+"#upBtnVase":{
+	bottom:25,
+	opacity:0,
+	
+}
+     
+          
